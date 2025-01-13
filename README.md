@@ -39,3 +39,27 @@ If you don’t already have Anaconda installed, download and install it from [An
 2. Create a new environment named `openvr-env` with Python 3.8.20:
    ```bash
    conda create -n openvr-env python=3.8.20
+   
+---
+
+### 3. Activate the environment
+
+  ```bash
+   conda activate openvr-env
+  ```
+
+---
+
+### 4. Install Dependencies
+
+With the environment activated, install the required dependencies:
+   ```bash
+   pip install numpy openvr transforms3d
+   ```
+
+
+
+
+
+
+
