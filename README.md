@@ -19,16 +19,23 @@ This Python script interfaces with an OpenVR setup to fetch real-time positional
 
 ## Requirements
 
-### Python Libraries
+### Software Requirements
+- **Anaconda**: To manage dependencies and create a Python environment.
+- **Python Version**: 3.8.20 (configured through Anaconda).
 
-Ensure you have the following Python libraries installed:
+---
 
-- `numpy`
-- `openvr`
-- `transforms3d`
+## Setup
 
-Install them using pip:
+### 1. Install Anaconda
 
-```bash
-pip install numpy openvr transforms3d
+If you don’t already have Anaconda installed, download and install it from [Anaconda’s official website](https://www.anaconda.com/).
 
+---
+
+### 2. Create the Python Environment
+
+1. Open your terminal or Anaconda Prompt.
+2. Create a new environment named `openvr-env` with Python 3.8.20:
+   ```bash
+   conda create -n openvr-env python=3.8.20
